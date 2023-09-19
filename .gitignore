@@ -5,3 +5,4 @@ venv
 shell.py
 static
 media
+.env
