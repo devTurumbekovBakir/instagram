@@ -10,6 +10,9 @@ services:
       - ./backend/:/usr/src/backend/
     env_file:
       - ./.env
+    depends_on:
+      - db
+
 
   db:
     image: postgres:15.4-alpine3.18

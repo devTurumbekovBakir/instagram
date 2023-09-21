@@ -1,8 +1,15 @@
 .idea
 venv
-
-**/__pycache__
 backend/shell.py
+
+# cache
+**/__pycache__
+
+# static files
 backend/static
 media
+
+# env files
 .env
+.env.prod
+.env.prod.db
